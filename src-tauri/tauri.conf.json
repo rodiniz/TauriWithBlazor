@@ -18,11 +18,7 @@
         "all": true,
         "request": true,
         "scope": [
-          "https://jsonplaceholder.typicode.com/*",
-          "https://connect.xpollens.com/*",
-          "https://ic-connect.s-money.net/*",
-          "https://sb-connect.s-money.net/*",
-          "https://sg-connect.s-money.net/*"
+          "https://jsonplaceholder.typicode.com/*"
         ]
       },
       "dialog": {
