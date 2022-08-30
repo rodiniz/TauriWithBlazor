@@ -4,11 +4,17 @@
 
 <h1>Hello, Rodrigo Diniz</h1>
 Version: @Version
-
+<br/>
+ <button @onclick="SendNotification">
+       Show notification
+ </button>
 @code{
    public string Version {get;set;}
    protected override async Task OnInitializedAsync()
     {
-        Version = new(await JS.InvokeAsync<string>("getTauriVersion"));
+        Version = await JS.InvokeAsync<string>("getTauriVersion");
+    }
+    public async Task SendNotification(){
+      await JS.InvokeVoidAsync("sendNotification","Hello notification");
     }
 }

@@ -7,3 +7,14 @@ window.getTauriVersion=async() =>{
   return tauriVersion;
 }
 
+window.sendNotification=async(message)=>{
+
+  let permissionGranted = await notification.isPermissionGranted();
+  if (!permissionGranted) {
+    const permission = await requestPermission();
+    permissionGranted = permission === 'granted';
+  }
+  if (permissionGranted) {
+    notification.sendNotification(message);
+  }
+}
