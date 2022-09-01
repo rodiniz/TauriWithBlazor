@@ -2,7 +2,7 @@
 
 - **Tauri** -https://tauri.app/
 - **GitHub action** for cross-platform builds
-- **Blazor webAssembly as the front-end Framework**
+- **Blazor webAssembly as the front-end Framework**  https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor
 - **Hot reload**
 -**Another way of creating a multi platform application using Blazor
 
