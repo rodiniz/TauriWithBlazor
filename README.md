@@ -1,6 +1,6 @@
 # Tauri Blazor Wasm Template
 
-- **[Tauri]**(https://tauri.app/)
+- **Tauri** -https://tauri.app/
 - **GitHub action** for cross-platform builds
 - **Blazor webAssembly**
 - **Hot reload**
