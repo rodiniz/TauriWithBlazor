@@ -1,4 +1,4 @@
-# Tauri Blazor Wasm Template
+# Tauri with Blazor Wasm Template
 
 - **Tauri** -https://tauri.app/
 - **GitHub action** for cross-platform builds
