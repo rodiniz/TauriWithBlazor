@@ -9,5 +9,8 @@
     "test": "ng test",
     "tauri": "tauri"
   },
-  "private": true
+  "private": true,
+  "dependencies": {  
+    "@tauri-apps/api": "^1.0.2"   
+  },
 }
