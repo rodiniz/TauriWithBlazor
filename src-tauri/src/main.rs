@@ -3,7 +3,7 @@
   windows_subsystem = "windows"
 )]
 
-use tauri::{CustomMenuItem, Menu, MenuItem, Submenu};
+use tauri::{ Menu, MenuItem, Submenu};
 
 fn main() {
 

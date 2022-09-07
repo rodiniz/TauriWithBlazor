@@ -1,7 +1,7 @@
 {
   "$schema": "../node_modules/@tauri-apps/cli/schema.json",
   "build": {
-    "beforeBuildCommand": "dotnet publish -c release src/src.csproj -o dist/webapp-helper",
+    "beforeBuildCommand": "dotnet publish -c release src/src.sln -o dist/webapp-helper",
     "beforeDevCommand": "dotnet watch run --project src",
     "devPath": "http://localhost:4000",
     "distDir": "../dist/webapp-helper/wwwroot",
