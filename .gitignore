@@ -42,3 +42,4 @@ testem.log
 Thumbs.db
 src/bin
 src/obj
+src/.vs
