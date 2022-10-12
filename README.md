@@ -1,5 +1,5 @@
 # Tauri with Blazor Wasm Template
-
+Build an optimized, secure, and frontend-independent application for multi-platform deployment.
 - **Tauri** -https://tauri.app/
 - **GitHub action** for cross-platform builds
 - **Blazor webAssembly as the front-end Framework**  https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor
