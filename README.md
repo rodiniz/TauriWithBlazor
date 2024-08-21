@@ -23,6 +23,5 @@ Build an optimized, secure, and frontend-independent application for multi-platf
 ### Release new version
 1. Update `CHANGELOG.md`
 2. Bump the version number in `src-tauri/Cargo.toml`
-3. Run `cargo check` to update `Cargo.lock`
-4. Create a git tag in the format `v#.#.#`
-5. Add release notes to the generated GitHub release and publish it
+3. (Optionnal) Create a git tag in the format `v#.#.#`
+4. (Optionnal) Add release notes to the generated GitHub release and publish it
